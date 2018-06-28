@@ -16,7 +16,7 @@ final class CalculateTest extends TestCase{
     public function testDivide1():void{
         include_once "src/calculate.php";
         $calculate=new Calculate();
-        $this->assertEquals(  $calculate->divide(50,10),0);
+        $this->assertEquals(  $calculate->divide(50,10),5);
     }
 
 
